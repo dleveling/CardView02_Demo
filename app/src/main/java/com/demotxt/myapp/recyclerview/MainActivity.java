@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       /* new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent homeIntent = new Intent(MainActivity.this,HomeActivity.class);
                 startActivity(homeIntent);
                 finish();
             }
-        },SPLASH_TIME_OUT);*/
+        },SPLASH_TIME_OUT);
 
         lstBook = new ArrayList<>();
         lstBook.add(new Book("The Vegitarian","Categorie Book","Description book",R.drawable.thevigitarian));
