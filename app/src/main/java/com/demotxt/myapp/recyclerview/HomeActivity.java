@@ -31,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
         myrv.setLayoutManager(new GridLayoutManager(this,3));
         myrv.setAdapter(myAdapter);
 
-
+        ///
 
     }
 }
